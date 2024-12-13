@@ -96,14 +96,15 @@ aside img {
 .image-rollover {
     width: 260px;
     height: 260px;
-    background-image: url('sampson_dinosaur.jpg');
-    background-repeat: no-repeat;
+    background-image: url('images/sampson_dinosaur.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out;
 }
 
 .image-rollover:hover {
-    background-image: url('sorkin_desk260.jpg');
+    background-image: url('images/sorkin_desk260.jpg');
 }
-
 /* the styles for the footer */
 footer {
 	background-color: #931420;
