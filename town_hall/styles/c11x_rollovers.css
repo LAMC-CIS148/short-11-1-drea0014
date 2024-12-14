@@ -67,6 +67,7 @@ section p {
     background-image: url("../images/sampson_dinosaur.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .image-rollover:hover {
