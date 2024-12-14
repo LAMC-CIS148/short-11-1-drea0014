@@ -65,12 +65,10 @@ section p {
 	width: 260px;
 	height: 260px;
 	background-image: url("../images/sampson_dinosaur.jpg");
-	background-size: cover;
 	background-repeat: no-repeat;
 }
 .image-rollover:hover {
 	background-image: url("../images/sorkin_desk260.jpg");
-	background-repeat: no-repeat;
 }
 
 /* the styles for the article */
