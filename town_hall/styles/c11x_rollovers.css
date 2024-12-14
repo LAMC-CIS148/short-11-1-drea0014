@@ -62,8 +62,6 @@ section p {
 
 /* Rollover styles for the <p> element */
 .image-rollover {
-    width: 260px;
-    height: 260px;
     background-image: url("../images/sampson_dinosaur.jpg");
     background-position: center;
     background-size: cover;
@@ -72,6 +70,11 @@ section p {
 
 .image-rollover:hover {
     background-image: url("../images/sorkin_desk260.jpg");
+    width: 260px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* the styles for the article */
