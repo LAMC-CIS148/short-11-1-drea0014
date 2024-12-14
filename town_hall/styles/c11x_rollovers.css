@@ -70,6 +70,7 @@ section p {
 }
 .image-rollover:hover {
 	background-image: url("../images/sorkin_desk260.jpg");
+	background-repeat: no-repeat;
 }
 
 /* the styles for the article */
